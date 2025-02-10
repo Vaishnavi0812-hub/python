@@ -59,6 +59,39 @@
 #         print("First")
 #     else:
 #         print("not first")
+# def power(base_num, power_num):
+#     result=1
+#     for index in range(power_num):
+#         result=result*base_num
+
+#     return result
+# print(power(3,2))
+
+# my_list=[ [1,2,3],
+#           [4,5,6], 
+#           [7,8,9], 
+#           [0] ]
+# print(my_list[2][1])
+
+# for row in my_list:
+#     for col in row:
+#         print(col)
+
+# def translate(phrase):
+#     translation=""
+#     for letter in phrase:
+#         if letter in "AEIOUaeiou":
+#             if letter.isupper():
+#                 translation=translation + "G"
+#             else:
+#                 translation=translation+ "g"
+#         else:
+#             translation=translation + letter
+
+#     return translation
+
+# print(translate(input("Enter a phrase:")))
+
 
 
 
