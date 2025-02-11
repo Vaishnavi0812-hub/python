@@ -91,7 +91,54 @@
 #     return translation
 
 # print(translate(input("Enter a phrase:")))
+# try:
+#     value=10/0
+#     num=int(input("Enter a number:"))
+#     print(num)
+# except ZeroDivisionError:
+#     print("Divided by zero")
+# except ValueError:
+#     print("Invalid")
 
+# employee_file= open("Employee.data1.py", "w")
+# employee_file.write("\n Vaish- Digital Marketer")
+# employee_file.close()
+
+# class Student:
+
+#     def __init__(self, name, major, gpa, is_on_probation):
+#         self.name= name
+#         self.major=major
+#         self.gpa=gpa
+#         self.is_on_probation=is_on_probation
+
+#     def on_honour(self):
+#         if self.gpa>=3.5:
+#             return True
+#         else:
+#             return False
+
+# from Studentdata import Student
+
+# student1= Student("Alex", "Business", 4.0, False)
+# student2= Student("Josh", "Medicine", 3.8, False)
+# print(student1.on_honour())
+
+# class Chef:
+
+#     def make_chicken(self):
+#         print("chef makes chicken")
+
+#     def make_salad(self):
+#         print("chef makes salad")
+
+#     def make_specialdish(self):
+#         print("chef makes special dish")
+
+# from Chef import Chef
+
+# mychef= Chef()
+# mychef.make_chicken()
 
 
 
